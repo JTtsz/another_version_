@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style>
+    	h1{
+        font-size: 50px;
+    }
+    
+    label {
+            font-size: 35px;
+        }
+    input[type="text"] {
+            font-size: 35px;
+        }
+    input[type="submit"] {
+            font-size: 35px;
+        }    
+       a {font-size:35px;} 
+    </style>
+</head>
+<body>
+	<div class="jumbotron text-center">
+	<h1>Search Library Document Information</h1>
+	</div>
+	<form action="/search" method="POST">
+	<label for="UserName"><b>Please input UserName here:</b></label><br>
+	<input type="text" id="UserName" name="UserName" placeholder="Type the UserName here" >
+	<input type="submit" value="Search" />
+	<p><a href='/home'>Back to home. </a></p>
+</body>
+</html>
